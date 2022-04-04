@@ -30,6 +30,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+ACCOUNT_EMAIL_VERIFICATION = 'none'
+
+X_FRAME_OPTIONS = 'SAMEORIGIN'
+
 ALLOWED_HOSTS = ['codestar-blog-app.herokuapp.com', 'localhost']
 
 
